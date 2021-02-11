@@ -1,7 +1,7 @@
 package CFCJavaAssignment.assignment1;
 
 public class DigitCount {
-    public static int DigitsCount(int n) {
+    public static int digitsCount(int n) {
         int count = 0;
         while (n > 0) {
             n = n / 10;
