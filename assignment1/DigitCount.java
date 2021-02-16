@@ -12,7 +12,7 @@ public class DigitCount {
 
     public static void main(String[] args) {
         int num = 36567343;
-        int dc = DigitsCount(num);
+        int dc = digitsCount(num);
         System.out.println(dc);
     }
 }
