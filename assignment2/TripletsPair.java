@@ -9,10 +9,10 @@ public class TripletsPair {
         System.out.println("Enter the target below: ");
         int target = s.nextInt();
 
-        findtriplets(array, target);
+        findTriplets(array, target);
     }
 
-    public static void findtriplets(int[] arr,int k ) {
+    public static void findTriplets(int[] arr,int k ) {
         for (int i = 0; i < arr.length - 2; i++) {
             for (int j = i + 1; j < arr.length - 1; j++) {
                 for (int l = j + 1; l < arr.length; l++) {
